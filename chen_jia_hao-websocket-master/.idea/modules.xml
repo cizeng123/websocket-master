@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/chen_jia_hao-websocket-master.iml" filepath="$PROJECT_DIR$/.idea/chen_jia_hao-websocket-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/websocket/websocket/websocket.iml" filepath="$PROJECT_DIR$/websocket/websocket/websocket.iml" />
+    </modules>
+  </component>
+</project>

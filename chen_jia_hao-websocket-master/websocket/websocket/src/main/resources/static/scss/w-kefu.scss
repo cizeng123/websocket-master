@@ -1,0 +1,384 @@
+@font-face {
+    font-family: "SFProDisplay Regular";
+    src: url('/font/SF-Pro-Display/SF-Pro-Display-Regular.otf')
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.kefu-header {
+    height: 11.7333vw;
+    background-color: #2b2c32;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+
+    .left {
+        width: 3.2vw;
+        height: 6vw;
+        background: url('/img/back.png') no-repeat;
+        background-size: 100%;
+    }
+
+    .middle {
+        color: #fff;
+        font-family: 'SFProDisplay Regular';
+        font-size: 4.2vw;
+    }
+
+    .right {
+        width: 5.3333vw;
+        height: 5.3333vw;
+        background: url('/img/phone1.png')no-repeat;
+        background-size: 100%;
+    }
+}
+
+.kefu-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 13.3333vw;
+    padding: 2.6667vw 4vw 0 4vw;
+    background-color: #36373f;
+    margin-top: 11.7333vw;
+    overflow: hidden;
+    overflow-y: scroll;
+
+    .kefu_wrapper {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: auto;
+    }
+
+    .content-left {
+        display: flex;
+        margin-bottom: 4vw;
+        ;
+
+        .avatar-l {
+            width: 11.2vw;
+            height: 11.2vw;
+            border-radius: 50%;
+            margin-right: 2.6667vw;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .message-l {
+            max-width: 50.6667vw;
+            border-radius: 2.3333vw;
+            background-color: #fff;
+            padding: 2.6667vw 4vw 2.6667vw 4vw;
+            text-align: left;
+            word-break: break-all;
+            margin-top: 2.9333vw;
+            font-family: 'SFProDisplay Regular';
+            color: #000;
+            font-size: 4.1333vw;
+            position: relative;
+            margin-left: 2vw;
+
+            .arrow-l {
+                position: absolute;
+                left: -1.4vw;
+                top: 3.3333vw;
+                width: 1.3333vw;
+                height: 1.3333vw;
+                background: url('/img/arrow2.png') no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+
+    }
+
+    .protein-service {
+        height: 6.6667vw;
+        line-height: 6.6667vw;
+        width: 45.3333vw;
+        border-radius: 1.3333vw;
+        background-color: #2b2c32;
+        font-size: 3.2vw;
+        font-family: 'SFProDisplay Regular';
+        color: #999999;
+        margin: 0 auto 6.6667vw auto;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .kefu-time {
+        width: 40vw;
+        height: 6.6667vw;
+        line-height: 6.6667vw;
+        font-size: 3.4vw;
+        border-radius: 1.3333vw;
+        background-color: #2b2c32;
+        font-family: 'SFProDisplay Regular';
+        color: #999;
+        margin: 0 auto 0 auto;
+
+    }
+
+    .content-right {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 4vw;
+
+        .avatar-r {
+            width: 11.2vw;
+            height: 11.2vw;
+            border-radius: 50%;
+            margin-left: 2.6667vw;
+
+            img {
+                width: 100%;
+                height: 100%;
+                flex-shrink: 0;
+            }
+        }
+
+        .message-r {
+            max-width: 50.6667vw;
+            border-radius: 2.3333vw;
+            background-color: #00c4d4;
+            color: #fff;
+            padding: 2.6667vw 4vw 2.6667vw 4vw;
+            text-align: left;
+            word-break: break-all;
+            margin-top: 2.9333vw;
+            font-family: 'SFProDisplay Regular';
+            font-size: 4.1333vw;
+            position: relative;
+            margin-right: 2vw;
+
+            .arrow-r {
+                position: absolute;
+                right: -1.44vw;
+                top: 3.3333vw;
+                width: 1.3333vw;
+                height: 1.3333vw;
+                background: url('/img/arrow1.png') no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+
+    .yuyin-right {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 4vw;
+
+        .avatar-r {
+            width: 11.2vw;
+            height: 11.2vw;
+            border-radius: 50%;
+            margin-left: 2.6667vw;
+
+            img {
+                width: 100%;
+                height: 100%;
+                flex-shrink: 0;
+            }
+        }
+
+        .yu-r {
+            max-width: 50.6667vw;
+            border-radius: 2.3333vw;
+            background-color: #00c4d4;
+            color: #fff;
+            padding: 2.6667vw 4vw 2.6667vw 4vw;
+            text-align: left;
+            word-break: break-all;
+            margin-top: 2.9333vw;
+            font-family: 'SFProDisplay Regular';
+            font-size: 4.1333vw;
+            position: relative;
+            margin-right: 2vw;
+
+            .arrow-r {
+                position: absolute;
+                right: -1.44vw;
+                top: 3.3333vw;
+                width: 1.3333vw;
+                height: 1.3333vw;
+                background: url('/img/arrow1.png') no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+
+    }
+
+}
+
+.kefu-bottom {
+    position: absolute;
+    height: 13.3333vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    z-index: 1;
+
+    .top {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        padding: 2.1333vw;
+        border-bottom: 1px solid #eaeaea;
+
+        .voice {
+            width: 9.5333vw;
+            height: 9.5333vw;
+            background: url('/img/voice1.png')no-repeat;
+            background-size: 100% 100%;
+            flex-shrink: 0;
+        }
+
+        .input-box {
+            margin-left: 1.8667vw;
+            width: 63vw;
+            height: 9vw;
+
+            .ipt {
+                border: none;
+                outline: none;
+                width: 63.3333vw;
+                height: 7.0vw;
+                border-radius: 2vw;
+                color: #999;
+                padding-left: 2vw;
+                padding-top: 2.4vw;
+                font-size: 4vw;
+                resize: none;
+                font-family: 'SFProDisplay Regular';
+
+            }
+
+            button {
+                border: none;
+                outline: none;
+                width: 63.3333vw;
+                height: 9.0vw;
+                border-radius: 2vw;
+                color: #999;
+                padding-left: 2vw;
+                font-size: 4vw;
+                font-family: 'SFProDisplay Regular';
+                display: none;
+            }
+        }
+
+        .add {
+            width: 9.5333vw;
+            height: 9.5333vw;
+            margin-left: 10vw;
+            flex-shrink: 0;
+            text-align: center;
+
+            .add-img {
+                width: 100%;
+                height: 100%;
+                -webkit-transition: -webkit-transform .7s;
+                transition: -webkit-transform .7s;
+                -o-transition: -o-transform .7s;
+                -moz-transition: transform .7s, -moz-transform .7s;
+                transition: transform .7s;
+                transition: transform .7s, -webkit-transform .7s, -moz-transform .7s, -o-transform .7s;
+            }
+
+            .sub-btn {
+                width: 100%;
+                height: 100%;
+                border-radius: 6px;
+                background-color: #00c4d4;
+                color: #fff;
+                font-size: 3.4vw;
+                display: none;
+            }
+        }
+    }
+
+    .middle {
+        display: flex;
+
+        .album {
+            width: 16.5333vw;
+            height: 16.5333vw;
+            position: relative;
+            margin-top: 5.3333vw;
+            margin-left: 7.4667vw;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .abl {
+                position: absolute;
+                position: absolute;
+                opacity: 0;
+                top: 0px;
+                left: 0px;
+                bottom: 0px;
+                right: 0px;
+                width: 100%;
+            }
+        }
+
+        .camera {
+            width: 16.5333vw;
+            height: 16.5333vw;
+            position: relative;
+            margin-top: 5.3333vw;
+            margin-left: 5.3333vw;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .cam {
+                position: absolute;
+                position: absolute;
+                opacity: 0;
+                top: 0px;
+                left: 0px;
+                bottom: 0px;
+                right: 0px;
+                width: 100%;
+            }
+        }
+    }
+}
+
+.yuyin_area {
+    width: 41.3333vw;
+    height: 41.3333vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-50%);
+    background: url('/img/yuyin3.gif') no-repeat;
+    background-size: 100% 100%;
+    display: none;
+}

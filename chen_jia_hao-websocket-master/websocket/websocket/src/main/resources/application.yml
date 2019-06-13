@@ -1,0 +1,7 @@
+server:
+  port: 9098
+
+
+chatFile: 'C:\catalogFile\kefu\chat_file'
+
+

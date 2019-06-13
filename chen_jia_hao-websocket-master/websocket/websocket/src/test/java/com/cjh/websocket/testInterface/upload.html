@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    function Download(){
+        var download = $("#download");
+        download.append("<a id=\"down\" href=\"aaaa.txt\" target=\"_blank\" download=\"aaaa.txt\" style=\"display:none\">下载该文件</a>");
+        console.log(download);
+        $("#down")[0].click();
+    }
+</script>
+<body>
+<a href="/i/w3school_logo_white.gif" download="w3logo">
+    <img border="0" src="/i/w3school_logo_white.gif" alt="W3School">
+</a>
+</body>
+</html>
